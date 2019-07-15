@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	overflow:hidden;
+	cursor:none;
+}
+
+
+/* -------------------------------------------------------------------------- */
+
+
+
+/* chalk */
+
+#chalkboard{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:1;
+	cursor:none;
+    background:url(./board.jpg);
+    background-size: 100%;
+	}
+.chalk{
+	width:30px;
+	height:37.5px;
+	background:url(./chalk.png);
+	background-size: 100%;
+	position:absolute;
+	padding:0;
+	margin:0;
+	bottom:0;
+	left:0;
+	cursor:none;
+    z-index:2;
+    }
+     
