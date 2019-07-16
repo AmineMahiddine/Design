@@ -1,4 +1,4 @@
-html {
+/* html {
     scroll-behavior: smooth;
 }
 
@@ -17,7 +17,7 @@ body {
 
 /* chalk */
 
-#chalkboard{
+/* #chalkboard{
 	position:absolute;
 	top:0;
 	left:0;
@@ -27,7 +27,7 @@ body {
 	cursor:none;
     background:url(./board.jpg);
     background-size: 100%;
-	}
+	} */
 .chalk{
 	width:30px;
 	height:37.5px;
@@ -41,4 +41,7 @@ body {
 	cursor:none;
     z-index:2;
     }
-     
+	  */
+	h1{
+		color : black ;
+	}
